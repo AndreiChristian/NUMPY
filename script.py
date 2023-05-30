@@ -8,5 +8,11 @@ a4 = np.random.random(10)
 a5 = np.random.randn(10)
 a6 = np.linspace(0,10,100)
 
-print(2*a1)
-print(1/a1)
+# print(a1>2)
+# print(a1[a1>2])
+
+x = np.linspace(0,1,100)
+y = x**2
+
+plt.plot(x,y)
+plt.show()
