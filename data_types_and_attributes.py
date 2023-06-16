@@ -10,4 +10,9 @@ ones = np.ones((10,10))
 
 zeros = np.zeros((3,5))
 
-print(zeros)
+range_array = np.arange(0,10,2)
+
+random_aray = np.random.randint(0,10,(3,5))
+
+random_array_2 = np.random.random((5,3))
+
